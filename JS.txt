@@ -1,0 +1,4 @@
+1.<script>
+document.getElementById("demo").innerHTML = "Hello Kitty.";
+</script>
+根据id修改content
