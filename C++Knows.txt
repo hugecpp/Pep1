@@ -20,3 +20,4 @@ State 和 Status 的核心区别，就是它们的枚举值之间是否有依赖
 全局static修饰只能在本文件访问，extern修饰也不可访问(函数同理)
 
 git use
+nihap
