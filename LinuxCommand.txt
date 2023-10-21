@@ -1,0 +1,13 @@
+cd /Directory	//进入Directory目录
+cd ..		//返回上一级目录
+ls		//查看当前目录下文件
+cp 文件名  目标目录	//复制文件到目标目录下
+df		//查看当前挂载内容（eg:sdcard）
+pwd		//查看当前所在的目录
+tar		//解压
+apt-get		//是从互联网上下载东西
+sudo su		//切换root用户
+Ubuntu 使用apt-get 而不是用yum
+
+
+ 按esc退出，输入 ：wq	//保存文本
