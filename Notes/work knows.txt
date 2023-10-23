@@ -1,0 +1,12 @@
+改webuser，modbus
+snmp控制时钟相同
+crc校验
+
+
+大致明白了userfunc里的函数和html中数据的关系。默认html有个测试数据，利用usefunc函数进行对其覆盖达到从后台获取数据。
+
+
+comtest.js 里的 DemoMode是控制显示的，true为预设值，false则为真正读取的UPS值。
+
+Superadmin	Username
+Password	admin_super 

@@ -1,0 +1,35 @@
+1.注意一下aTempData这个数组在哪儿初始化。
+
+2.websGetVar是从表单获取指定信息，如果不存在就返回默认信息，默认信息为空则返回空值。
+
+3.NTP是一个在应用层的协议，用来控制服务器端和客户端时钟相同。
+
+4.sscanf是从const char *中按照指定格式获取指定类型，每满足一个返回值+1；
+
+5.websWrite貌似是在编辑一个文本或者界面的样子，通过一些对文字的排版。
+
+6.#if 和 #end if 做得是预处理工作，如果为真就会先做。（故意为假也可以用来写注释）
+
+7.assert()就是判断参数是否为真。
+
+
+8.一个webs至少有 url,path,ext,query
+
+
+
+RP04<cr>:查询A路输入电压偏值, ATS回复:
+(00123\r\n   12.3V
+RP05<cr>:查询A路输入电压偏值, ATS回复:
+(00123\r\n   12.3V
+
+
+9.trace（）相当于printf但不同在于trace只在调试状态下才有输出，printf则是任意情况。
+
+
+10.wp有至少五种状态分别是 WEBS_BEGIN   WEBS_CONNENT   WEBS_READY   WEBS_RUNNING   WEBS_COMPLETE
+
+
+11.option value 下标从0开始
+ 
+
+12.pString = websGetVar(wp, "BaudRate", NULL);有关这个返回值的问题

@@ -1,0 +1,8 @@
+git pull website
+git push -u origin branchname
+git checkout -b branchnan //切换分支
+git reflog 	//查看每次的commit
+git log		//查看当前commit
+git reset --hard 哈希前5位	//切换版本
+git remote add origin website	//连接远程库 eg:git remote add origin https://github.com/huge/Pep1.git
+git rm -r --cached .		//删除本地库的缓存

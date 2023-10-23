@@ -1,0 +1,3 @@
+CustomFormat 可以自定义日期格式 
+for example：this.dateTimePicker2.CustomFormat = "M/dd/yyyy";
+MessageBox.show("daw");		弹窗显示信息daw
